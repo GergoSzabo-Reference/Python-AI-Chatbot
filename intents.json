@@ -1,0 +1,103 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "good day", "hi", "greetings", "what's up", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?", "Greetings!"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you", "later", "farewell", "take care"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["thank you", "thanks", "I appreciate it", "much appreciated", "thanks a lot"],
+        "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["how old are you?", "what's your age?", "are you old?", "tell me your age"],
+        "responses": ["I'm ageless!", "I exist beyond time.", "Age is just a number for me."]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what's your name?", "do you have a name?", "who are you?", "your name?"],
+        "responses": ["I'm your friendly chatbot.", "I'm called AI Helper.", "I'm here to help!"]
+    },
+    {
+        "tag": "shop",
+        "patterns": ["do you have a shop?", "where can I shop?", "do you sell?", "buy items"],
+        "responses": ["Check out our online store!", "You can shop on our website.", "Visit our store anytime!"]
+    },
+    {
+        "tag": "hours",
+        "patterns": ["what are your hours?", "when are you open?", "business hours?", "opening times"],
+        "responses": ["We're open 24/7!", "Our online services are always available.", "Reach us anytime!"]
+    },
+    {
+        "tag": "help",
+        "patterns": ["I need help", "can you help me?", "assist me", "help me out"],
+        "responses": ["Sure, I'm here to help!", "What do you need assistance with?", "I'm here to support you."]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["what's the weather?", "how's the weather?", "is it raining?", "forecast"],
+        "responses": ["I'm not sure, but you could check a weather site.", "Let me know where you are, and I can suggest a local forecast site."]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["tell me a joke", "make me laugh", "funny", "give me a joke"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you call fake spaghetti? An impasta!"]
+    },
+    
+    {
+        "tag": "köszönés",
+        "patterns": ["hello", "szia", "jó napot", "üdv", "mi újság?", "hogy megy a sorod?"],
+        "responses": ["Helló!", "Szia!", "Miben segíthetek?", "Üdvözöllek!"]
+    },
+    {
+        "tag": "búcsúzás",
+        "patterns": ["viszlát", "búcsú", "szia", "legközelebb", "gondoskodj magadról"],
+        "responses": ["Viszlát!", "Majd találkozunk!", "Vigyázz magadra!"]
+    },
+    {
+        "tag": "köszönet",
+        "patterns": ["köszönöm", "hálás vagyok", "kösz", "nagyon köszönöm"],
+        "responses": ["Szívesen!", "Nincs mit!", "Öröm, hogy segíthettem!"]
+    },
+    {
+        "tag": "kor",
+        "patterns": ["hány éves vagy?", "mi a korod?", "öreg vagy?", "mondd meg a korod"],
+        "responses": ["Kortalan vagyok!", "Időn kívül létezem.", "A kor csak egy szám."]
+    },
+    {
+        "tag": "név",
+        "patterns": ["mi a neved?", "hogy hívnak?", "ki vagy?", "mi a neved?"],
+        "responses": ["Barátságos chatbot vagyok.", "AI Segítő a nevem.", "Azért vagyok itt, hogy segítsek!"]
+    },
+    {
+        "tag": "bolt",
+        "patterns": ["van boltod?", "hol tudok vásárolni?", "eladsz valamit?", "vásárlás"],
+        "responses": ["Nézd meg az online boltunkat!", "A weboldalunkon tudsz vásárolni.", "Bármikor látogathatod a boltunkat!"]
+    },
+    {
+        "tag": "nyitvatartás",
+        "patterns": ["mikor vagytok nyitva?", "nyitvatartás?", "mikor érhetlek el?", "nyitvatartási idő"],
+        "responses": ["Az online szolgáltatásunk mindig elérhető!", "24/7-ben nyitva vagyunk!", "Bármikor elérsz minket!"]
+    },
+    {
+        "tag": "segítség",
+        "patterns": ["segítség kell", "tudsz segíteni?", "kérhetek segítséget?", "segíts nekem"],
+        "responses": ["Persze, itt vagyok, hogy segítsek!", "Miben segíthetek?", "Hogy tudok segíteni?"]
+    },
+    {
+        "tag": "időjárás",
+        "patterns": ["milyen az idő?", "esik az eső?", "időjárás előrejelzés", "mi a várható időjárás?"],
+        "responses": ["Nem vagyok biztos benne, de nézd meg egy időjárás oldalon.", "Mondd meg, hol vagy, és javaslok egy helyi időjárás oldalt."]
+    },
+    {
+        "tag": "vicc",
+        "patterns": ["mesélj egy viccet", "nevettess meg", "mondj egy viccet", "adj egy viccet"],
+        "responses": ["Miért nem bíznak a tudósok az atomokban? Mert mindenből viccet csinálnak!", "Mi a neve a hamis spagettinek? Impasta!"]
+    }
+]}
